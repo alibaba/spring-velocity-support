@@ -1,0 +1,9 @@
+org/springframework/web/servlet/view/velocity/VelocityLayoutViewResolver.class
+org/springframework/web/servlet/view/velocity/VelocityConfigurer.class
+org/springframework/web/servlet/view/velocity/VelocityView$LocaleAwareDateTool.class
+org/springframework/web/servlet/view/velocity/VelocityView.class
+org/springframework/web/servlet/view/velocity/VelocityView$LocaleAwareNumberTool.class
+org/springframework/web/servlet/view/velocity/VelocityToolboxView.class
+org/springframework/web/servlet/view/velocity/VelocityConfig.class
+org/springframework/web/servlet/view/velocity/VelocityViewResolver.class
+org/springframework/web/servlet/view/velocity/VelocityLayoutView.class
