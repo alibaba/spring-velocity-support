@@ -33,11 +33,6 @@ import org.springframework.web.context.ServletContextAware;
  * The simplest way to use this class is to specify just a "resourceLoaderPath";
  * you do not need any further configuration then.
  *
- * <pre class="code">
- * &lt;bean id="velocityConfig" class="org.springframework.web.servlet.view.velocity.VelocityConfigurer"&gt;
- *   &lt;property name="resourceLoaderPath">&lt;value&gt;/WEB-INF/velocity/&lt;/value>&lt;/property&gt;
- * &lt;/bean&gt;</pre>
- *
  * This bean must be included in the application context of any application
  * using Spring's {@link VelocityView} for web MVC. It exists purely to configure
  * Velocity; it is not meant to be referenced by application components (just
@@ -99,6 +94,7 @@ public class VelocityConfigurer extends org.springframework.ui.velocity.Velocity
 	 * (if there is an actual need to use those macros).
 	 * <p>If this is not set, VelocityEngineFactory's properties
 	 * (inherited by this class) have to be specified.
+	 * @param velocityEngine {@link VelocityEngine}
 	 */
 	public void setVelocityEngine(VelocityEngine velocityEngine) {
 		this.velocityEngine = velocityEngine;

@@ -45,7 +45,6 @@ import org.springframework.context.ResourceLoaderAware;
  * @see #setConfigLocation
  * @see #setVelocityProperties
  * @see #setResourceLoaderPath
- * @see org.springframework.web.servlet.view.velocity.VelocityConfigurer
  * @deprecated as of Spring 4.3, in favor of FreeMarker
  */
 @Deprecated
