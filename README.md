@@ -1,5 +1,8 @@
 # spring-velocity-support
-An support project of legacy velocity based on Spring Framework
+
+An support project of legacy velocity based on Spring Framework, it is a base project of 
+[Alibaba velocity-spring-boot-project](https://github.com/alibaba/velocity-spring-boot-project), and most code is 
+forked from Spring Framework official implementation.
 
 
 ## Release version
