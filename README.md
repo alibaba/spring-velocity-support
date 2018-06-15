@@ -20,7 +20,7 @@ An support project of legacy velocity based on Spring Framework
     <dependency>
         <groupId>com.alibaba.spring</groupId>
         <artifactId>spring-velocity-support</artifactId>
-        <version>0.1.0</version>
+        <version>1.0.0.RELEASE</version>
     </dependency>
 
     ......
@@ -48,8 +48,8 @@ If your project failed to resolve the dependency, try to add the following repos
 
 | Forked modules                  | From `org.springframework`                                  |
 | ------------------------------- | ----------------------------------------------------------- |
-| `spring-context-velocity:0.1.0` | `spring-context-support:4.3.17.RELEASE`                     |
-| `spring-webmvc-velocity:0.1.0`  | `spring-webmvc:4.3.17.RELEASE`                              |
+| `spring-context-velocity:1.0.0.RELEASE` | `spring-context-support:4.3.17.RELEASE`                     |
+| `spring-webmvc-velocity:1.0.0.RELEASE`  | `spring-webmvc:4.3.17.RELEASE`                              |
 
 
 
