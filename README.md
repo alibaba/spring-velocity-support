@@ -4,6 +4,8 @@ An support project of legacy velocity based on Spring Framework
 
 ## Release version
 
+### Non-Web Application
+
 ````xml
 <dependencies>
 
@@ -16,11 +18,37 @@ An support project of legacy velocity based on Spring Framework
         <version>${spring.framework.version}</version>
     </dependency>
 
-    <!-- Spring Context Extras -->
+    <!-- Spring Context Velocity -->
     <dependency>
         <groupId>com.alibaba.spring</groupId>
-        <artifactId>spring-velocity-support</artifactId>
-        <version>1.0.0.RELEASE</version>
+        <artifactId>spring-context-velocity</artifactId>
+        <version>4.3.17.RELEASE</version>
+    </dependency>
+
+    ......
+
+</dependencies>
+````
+
+### Web Application
+
+````xml
+<dependencies>
+
+    ......
+
+     <!-- Spring Web MVC -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>${spring.framework.version}</version>
+    </dependency>
+
+    <!-- Spring WebMVC Velocity -->
+    <dependency>
+        <groupId>com.alibaba.spring</groupId>
+        <artifactId>spring-webmvc-velocity</artifactId>
+        <version>4.3.17.RELEASE</version>
     </dependency>
 
     ......
@@ -41,19 +69,15 @@ If your project failed to resolve the dependency, try to add the following repos
     </repositories>
 ```
 
+
+
+
 ## Modules
 
 
 ### Forked Modules
 
-| Forked modules                  | From `org.springframework`                                  |
+| Modules                  | From `org.springframework`                                  |
 | ------------------------------- | ----------------------------------------------------------- |
-| `spring-context-velocity:1.0.0.RELEASE` | `spring-context-support:4.3.17.RELEASE`                     |
-| `spring-webmvc-velocity:1.0.0.RELEASE`  | `spring-webmvc:4.3.17.RELEASE`                              |
-
-
-
-
-## Document
-
-TODO: Working in Process
+| [`spring-context-velocity`](spring-context-velocity) | `spring-context-support:4.3.17.RELEASE`                     |
+| [`spring-webmvc-velocity`](spring-webmvc-velocity)   | `spring-webmvc:4.3.17.RELEASE`                              |

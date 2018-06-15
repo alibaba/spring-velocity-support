@@ -12,11 +12,10 @@
 
     <groupId>com.alibaba.spring</groupId>
     <artifactId>spring-velocity-support</artifactId>
-    <version>${revision}</version>
+    <version>4.3.17.RELEASE</version>
     <packaging>pom</packaging>
 
     <properties>
-        <revision>1.0.0.RELEASE</revision>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
         <!-- Servlet -->
