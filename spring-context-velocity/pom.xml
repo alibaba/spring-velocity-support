@@ -5,16 +5,16 @@
     <parent>
         <groupId>com.alibaba.spring</groupId>
         <artifactId>spring-velocity-support</artifactId>
-        <version>4.3.17.RELEASE</version>
+        <version>4.3.18.RELEASE</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.alibaba.spring</groupId>
     <artifactId>spring-context-velocity</artifactId>
-    <version>4.3.17.RELEASE</version>
+    <version>4.3.18.RELEASE</version>
 
-    <description>Forked from spring-context-support 4.3.17.RELEASE</description>
+    <description>Forked from spring-context-support 4.3.18.RELEASE</description>
 
     <dependencies>
 
