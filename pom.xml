@@ -12,7 +12,7 @@
 
     <groupId>com.alibaba.spring</groupId>
     <artifactId>spring-velocity-support</artifactId>
-    <version>4.3.18.RELEASE</version>
+    <version>1.4.3.18.RELEASE</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -168,7 +168,7 @@
             <resource>
                 <directory>src/main/java</directory>
                 <includes>
-                    <include>**/**</include>
+                    <include>**/*.vm</include>
                 </includes>
             </resource>
         </resources>

@@ -25,7 +25,7 @@ forked from Spring Framework official implementation.
     <dependency>
         <groupId>com.alibaba.spring</groupId>
         <artifactId>spring-context-velocity</artifactId>
-        <version>4.3.18.RELEASE</version>
+        <version>1.4.3.18.RELEASE</version>
     </dependency>
 
     ......
@@ -51,7 +51,7 @@ forked from Spring Framework official implementation.
     <dependency>
         <groupId>com.alibaba.spring</groupId>
         <artifactId>spring-webmvc-velocity</artifactId>
-        <version>4.3.18.RELEASE</version>
+        <version>1.4.3.18.RELEASE</version>
     </dependency>
 
     ......

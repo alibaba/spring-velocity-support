@@ -5,14 +5,14 @@
     <parent>
         <groupId>com.alibaba.spring</groupId>
         <artifactId>spring-velocity-support</artifactId>
-        <version>4.3.18.RELEASE</version>
+        <version>1.4.3.18.RELEASE</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.alibaba.spring</groupId>
     <artifactId>spring-webmvc-velocity</artifactId>
-    <version>4.3.18.RELEASE</version>
+    <version>1.4.3.18.RELEASE</version>
 
     <description>Forked from spring-webmvc 4.3.18.RELEASE</description>
 
