@@ -5,7 +5,7 @@ An support project of legacy velocity based on Spring Framework, it is a base pr
 forked from Spring Framework official implementation.
 
 
-## Release version
+## Released version
 
 ### Non-Web Application
 
