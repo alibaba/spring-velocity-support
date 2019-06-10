@@ -100,8 +100,14 @@ public class SpringResourceLoader extends ResourceLoader {
 			logger.debug("Looking for Velocity resource with name [" + source + "]");
 		}
 		for (String resourceLoaderPath : this.resourceLoaderPaths) {
+			String location;
+			if (source.startsWith("/")) {
+				location = resourceLoaderPath + source.replaceFirst("/", "");
+			}else{
+				location = resourceLoaderPath + source;
+			}
 			org.springframework.core.io.Resource resource =
-					this.resourceLoader.getResource(resourceLoaderPath + source);
+					this.resourceLoader.getResource(location);
 			try {
 				return resource.getInputStream();
 			}
