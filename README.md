@@ -25,7 +25,7 @@ forked from Spring Framework official implementation.
     <dependency>
         <groupId>com.alibaba.spring</groupId>
         <artifactId>spring-context-velocity</artifactId>
-        <version>1.4.3.18.RELEASE</version>
+        <version>1.4.3.25.RELEASE</version>
     </dependency>
 
     ......
@@ -51,7 +51,7 @@ forked from Spring Framework official implementation.
     <dependency>
         <groupId>com.alibaba.spring</groupId>
         <artifactId>spring-webmvc-velocity</artifactId>
-        <version>1.4.3.18.RELEASE</version>
+        <version>1.4.3.25.RELEASE</version>
     </dependency>
 
     ......
@@ -82,5 +82,5 @@ If your project failed to resolve the dependency, try to add the following repos
 
 | Modules                  | From `org.springframework`                                  |
 | ------------------------------- | ----------------------------------------------------------- |
-| [`spring-context-velocity`](spring-context-velocity) | `spring-context-support:4.3.18.RELEASE`                     |
-| [`spring-webmvc-velocity`](spring-webmvc-velocity)   | `spring-webmvc:4.3.18.RELEASE`                              |
+| [`spring-context-velocity`](spring-context-velocity) | `spring-context-support:4.3.25.RELEASE`                     |
+| [`spring-webmvc-velocity`](spring-webmvc-velocity)   | `spring-webmvc:4.3.25.RELEASE`                              |
