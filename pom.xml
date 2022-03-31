@@ -19,7 +19,7 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
         <!-- Spring Framework -->
-        <spring.framework.version>4.3.25.RELEASE</spring.framework.version>
+        <spring.framework.version>5.3.18</spring.framework.version>
     </properties>
 
     <scm>
